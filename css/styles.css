@@ -30,4 +30,24 @@
 }
 .menu {
     display: flex;
+    justify-content: flex-end;
+}
+
+.catalog, .contacts, .shop, .socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 280px;
+    background-color: rgb(129, 98, 79); 
+    opacity: 0.5;
+    }
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 253, 253);
+}
+
+.pictures {
+    display: flex;
 }
