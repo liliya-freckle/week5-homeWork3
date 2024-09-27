@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.museum {
+    display: flex;
+    align-items: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 45px;
+    color: rgb(129, 98, 79);
+    text-shadow: 3px;
+    }
+
+.logoImage {
+    display: flex;
+    max-width: 240px;
+}
+.menu {
+    display: flex;
+}
