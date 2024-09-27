@@ -50,4 +50,23 @@
 
 .pictures {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    }
+
+.lamp, .rug, .alladin, .jasmin, .parrot {
+    display: flex;
+    height: 260px;
+}
+.rug {
+    height: 330px;
+}
+
+.lamp {
+    height: 240px;
+}
+.parrot {
+    height: 160px;
 }
